@@ -65,10 +65,11 @@ header.navbar a{
 }
 .noidung{
     margin-top: 80px;
-    margin-left: 43%;
+    margin-left: 45%;
 }
 .hang1{
     display: flex;
+    margin-left: -11px;
   
 }
 .hinhngang1 a img{
@@ -132,6 +133,7 @@ header.navbar a{
 }
 .hang2{
     display: flex;
+    margin-left: -11px;
   
 }
 .hinhngang21 a img{
@@ -195,6 +197,8 @@ header.navbar a{
 }
 .hang3{
     display: flex;
+    margin-left: -11px;
+    margin-bottom: 1720px;
   
 }
 .hinhngang31 a img{
@@ -261,21 +265,44 @@ header.navbar a{
     bottom: 0;
     background:cornsilk;
     position:fixed;
-    height: 50px;
+    height: 55px;
     justify-content:space-between;
     align-items: center;
     
 }
  .noidungbt{
-    position:fixed;
-    margin-top: 1rem;
+    top: 27px;
     margin-left: 40%;
     position: absolute;
 } 
-/* .infor{
-    display:flex;   
+.link1{
+    display: flex;
 }
-.infor .fb{
-    min-height: 10px;
-    height: 10px;
-} */
+.link2{
+    display: flex;
+}
+.link3{
+    display: flex;
+}
+.footer-item_link{
+    color:brown;
+    text-decoration: none;
+    
+}
+.link-list{
+    display: flex;
+    position: absolute;
+    justify-content:space-between;
+    margin-left: 100px;
+    list-style: none;
+    margin-top: 7px;
+}
+.link-list--item-f{
+margin-left: 550px;
+}
+.link-list--item-i{
+margin-left: 50px;
+}
+.link-list--item-t{
+    margin-left: 50px;
+}

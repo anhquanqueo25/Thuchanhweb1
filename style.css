@@ -1,7 +1,7 @@
-/* *{
-    padding: 120px 20px;
+ /* *{
+    padding: 0 50px 0 50px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-} */
+}  */
 body{
     background: #fff;
 }
@@ -33,21 +33,24 @@ header.navbar a{
     text-decoration: none;
 }
 .a1{
-    
+    cursor: pointer;
     text-decoration: none;   
     color:red;
 }
 .a2{
+    cursor: pointer;
     margin-left: 30px;
     text-decoration: none;   
     color:red;
 }
 .a3{
+    cursor: pointer;
     margin-left: 30px;
     text-decoration: none;
     color:red;   
 }
 .a4{
+    cursor: pointer;
     margin-left: 30px;
     margin-right: 50px;
     text-decoration: none;
@@ -259,8 +262,16 @@ header.navbar a{
     background:cornsilk;
     position:fixed;
     height: 50px;
-    content: center;
+    justify-content:space-between;
+    align-items: center;
+    
 }
+ .noidungbt{
+    position:fixed;
+    margin-top: 1rem;
+    margin-left: 40%;
+    position: absolute;
+} 
 /* .infor{
     display:flex;   
 }
